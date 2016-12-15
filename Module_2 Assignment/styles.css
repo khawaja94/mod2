@@ -1,0 +1,141 @@
+body{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size:15px;
+}
+
+#pHeading{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	font-size: 175%;
+	font-weight: bold;
+	text-align: center;
+}
+
+.smallBox1{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	text-align: center;
+	background-color: #DB7093;
+	border-style: solid;
+	border-color: black;
+	border-width: 0px 0px 3px 3px;
+	width: 25%;
+	float: right;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.box1{
+	display: block;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	width: 30%;
+	height: 310px;
+	margin-left:10px;
+	margin-right: 10px; 
+	background-color: #FF69B4;
+	border: 3px solid black;
+	float: left;
+}
+
+.smallBoxText1{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 125%;
+}
+
+.paragraph{
+	padding: 15px;
+}
+
+.smallBox2{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	text-align: center;
+	background-color: #806641;
+	border-style: solid;
+	border-color: black;
+	border-width: 0px 0px 3px 3px;
+	width: 25%;
+	float: right;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.box2{
+	display: block;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	width: 30%;
+	height: 310px;
+	margin-left:10px;
+	margin-right: 10px; 
+	background-color: #FF69B4;
+	border: 3px solid black;
+	float: left;
+}
+
+.smallBoxText2{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: white;
+	font-size: 125%;
+}
+
+.smallBox3{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	text-align: center;
+	background-color: #F9E4AB;
+	border-style: solid;
+	border-color: black;
+	border-width: 0px 0px 3px 3px;
+	width: 25%;
+	float: right;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.box3{
+	display: block;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	width: 30%;
+	height: 310px;
+	margin-left:10px; 
+	background-color: #FF69B4;
+	border: 3px solid black;
+	float: left;
+}
+
+.smallBoxText3{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 125%;
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+	.box1{
+		width:45%;
+	}
+
+	.box2{
+		width:45%;
+	}
+
+	.box3{
+		margin-top: 20px;
+		width:93%;
+	}
+    }
+
+@media screen and (max-width: 767px) {
+	.box1{
+		width:90%;
+	}
+
+	.box2{
+		margin-top: 20px;
+		width:90%;
+	}
+
+	.box3{
+		margin-top: 20px;
+		width:90%;
+	}
+    }
+
+
+
